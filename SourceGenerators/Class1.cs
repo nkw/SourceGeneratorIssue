@@ -16,7 +16,7 @@ public class SourceGenerator : ISourceGenerator
         sb.AppendLine("{");
         sb.AppendLine("    private static partial string? GetS2(string s)");
         sb.AppendLine("    {");
-        sb.AppendLine("        return \"Test\"");
+        sb.AppendLine("        return \"Test\";");
         sb.AppendLine("    }");
         sb.AppendLine("}");
 
