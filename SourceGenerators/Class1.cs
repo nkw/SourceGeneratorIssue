@@ -11,6 +11,7 @@ public class SourceGenerator : ISourceGenerator
         System.Console.WriteLine("Test....");
 
         var sb = new StringBuilder();
+        sb.AppendLine("#nullable enable");
         sb.AppendLine("namespace ClassLibrary1;");
         sb.AppendLine("public static partial class Class1");
         sb.AppendLine("{");
